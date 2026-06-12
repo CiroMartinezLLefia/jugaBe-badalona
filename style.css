@@ -1,0 +1,39 @@
+/*
+Theme Name: jugaBe-Badalona
+Theme URI: https://github.com/2high2work
+Author: Ciro Martinez
+Author URI: https://howarddc.com
+GitHub Theme URI: https://github.com/2high2work
+Description: Tema Hijo de Understrap.
+Version: 1.2.4
+Requires at least: 5.0
+Tested up to: 6.1
+Requires PHP: 5.2
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: understrap
+
+Understrap WordPress Theme, (C) 2021 Howard Development & Consulting, LLC
+Understrap is distributed under the terms of the GNU GPL.
+
+Resource Licenses:
+Understrap is based on Underscores https://underscores.me/, (C) Automattic, Inc.
+Font Awesome: https://fontawesome.com/v4.7/license/ (Font: SIL OFL 1.1, (S)CSS: MIT)
+Bootstrap: https://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (MIT)
+WP Bootstrap Navwalker by Edward McIntyre & William Patton: https://github.com/twittem/wp-bootstrap-navwalker (GNU GPLv3)
+*/
+
+/*
+Do not modify the parent Understrap theme. Instead, download a copy of the Understrap Child starter theme and do all your development within the child theme.
+Full developer documentation: https://docs.understrap.com
+*/
+
+body {
+    background-color: #0B090D;
+    color: #E1E1E1;
+}
+
+.joguina-card {
+    background-color: #1F1B24;
+    border: none;
+}

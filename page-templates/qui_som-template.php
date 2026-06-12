@@ -9,7 +9,6 @@
 defined( 'ABSPATH' ) || exit; // Safe check [cite: 37]
 
 get_header();
-get_template_part( 'global-templates/hero-banner' );
 
 $container = get_theme_mod( 'understrap_container_type' );
 ?>

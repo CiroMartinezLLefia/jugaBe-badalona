@@ -19,7 +19,6 @@ $container = get_theme_mod( 'understrap_container_type' );
       <div class="col-md-12 content-area" id="primary">
         <main class="site-main" id="main" role="main">
             <h1>Qui Som</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed voluptatibus eos, nobis blanditiis quidem ipsam, repellat repellendus enim, eius consequatur consectetur! Ex nisi quas dolores neque quibusdam! Minima, ipsa.</p>
         </main>
       </div>
     </div>

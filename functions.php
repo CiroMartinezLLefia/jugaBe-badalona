@@ -8,6 +8,7 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
+
 // UnderStrap's includes directory.
 $understrap_inc_dir = 'inc';
 
@@ -60,3 +61,11 @@ function enqueue_assets() {
     wp_get_theme()->get('Version')
   );
 }
+
+function fn_missatge() {
+	$missatge = get_field("missatge");
+	$missatgeRet = "<div class='bg-dark py-2'><p>$missatge</p></div>";
+	return $missatgeRet;
+}
+
+add_shortcode("missatge-dia", "fn_missatge");
